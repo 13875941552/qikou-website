@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/NotoSansSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/NotoSansSC-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/NotoSansSC-Black.ttf") format("truetype");
+}
+
+:root {
+  --body-font: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --title-font: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
